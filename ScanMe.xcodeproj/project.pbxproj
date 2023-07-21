@@ -12,6 +12,7 @@
 		C6344C462A6AF8AD006AC577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6344C452A6AF8AD006AC577 /* Assets.xcassets */; };
 		C6344C492A6AF8AD006AC577 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6344C482A6AF8AD006AC577 /* Preview Assets.xcassets */; };
 		C6344C502A6AF955006AC577 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6344C4F2A6AF955006AC577 /* AppViewModel.swift */; };
+		C6344C522A6AFF8B006AC577 /* DataScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6344C512A6AFF8B006AC577 /* DataScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C6344C452A6AF8AD006AC577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6344C482A6AF8AD006AC577 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C6344C4F2A6AF955006AC577 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		C6344C512A6AFF8B006AC577 /* DataScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				C6344C452A6AF8AD006AC577 /* Assets.xcassets */,
 				C6344C472A6AF8AD006AC577 /* Preview Content */,
 				C6344C4F2A6AF955006AC577 /* AppViewModel.swift */,
+				C6344C512A6AFF8B006AC577 /* DataScannerView.swift */,
 			);
 			path = ScanMe;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				C6344C442A6AF8AC006AC577 /* ContentView.swift in Sources */,
 				C6344C422A6AF8AC006AC577 /* ScanMeApp.swift in Sources */,
 				C6344C502A6AF955006AC577 /* AppViewModel.swift in Sources */,
+				C6344C522A6AFF8B006AC577 /* DataScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
