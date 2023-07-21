@@ -32,6 +32,10 @@ struct DataScannerView: UIViewControllerRepresentable {
         Coordinator(recognizedItems: $recognizedItems)
     }
     
+    static func dismantleUIViewController(_ uiViewController: DataScannerViewController, coordinator: Coordinator) {
+        uiViewController.stopScanning()
+    }
+    
     
     /*
      Creating this class to make sure we conforming
